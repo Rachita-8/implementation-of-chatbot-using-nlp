@@ -17,14 +17,14 @@ This project implements a simple chatbot that uses NLP to understand and respond
 * Tensor flow
 * Flask/FastAPI
 ## INSTALLATION
-1.Clone the repoitory
+*Clone the repoitory
 git clone https://github.com/your-username/chatbot-nlp.git
 cd chatbot-nlp
-2.Install dependencies
+*Install dependencies
 python -m venv venv
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
 pip install -r requirements.txt
-3. Download NLP resources:
+* Download NLP resources:
 python -m spacy download en_core_web_sm
 python -m nltk.downloader punkt
 
