@@ -3,8 +3,8 @@
   1. Introduction
   2. Features
   3. Technologies used
-  4. Installation
-  5. Required libraries
+  4. How it works
+  5. Contributing
 ## INTRODUCTION:
 This project implements a simple chatbot that uses NLP to understand and respond to user inputs.the chatbot is designed to simulate human-like conversations and can be extended for various cases.
 ## FEATURES
@@ -16,15 +16,14 @@ This project implements a simple chatbot that uses NLP to understand and respond
 * Ntlk
 * Tensor flow
 * Flask/FastAPI
-## INSTALLATION
-*Clone the repoitory
-git clone https://github.com/your-username/chatbot-nlp.git
-cd chatbot-nlp
-*Install dependencies
-python -m venv venv
-source venv/bin/activate  # On Windows, use venv\Scripts\activate
-pip install -r requirements.txt
-* Download NLP resources:
-python -m spacy download en_core_web_sm
-python -m nltk.downloader punkt
-
+  ## How it works
+  1. User Input: The chatbot receives input from the user
+  2. Text Processing: The input is cleaned and tokenised using libraries like nltk.
+  3. Intent Recognisation: The input is classified into an intent using pre-defined models.
+  4. Response Generation: The chatbot responds with a predefined or dynamic resonse based on recognised intent.
+## CONTRIBUTING
+1. Fork the repository
+2. create your feature branch
+3. commit your changes
+4. push to the branch
+5. open all requests
