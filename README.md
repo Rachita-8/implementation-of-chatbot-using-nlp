@@ -27,5 +27,6 @@ This project implements a simple chatbot that uses NLP to understand and respond
 3. commit your changes
 4. push to the branch
 5. open all requests
-## License
-This project is lincended under the MIT License-see the LICENSE File for details.
+## Sample examples
+* user: Hi,how are you
+* Bot: I'm doing great,thankyou.
