@@ -5,8 +5,8 @@
   3. Technologies used
   4. Installation
   5. Required libraries
-##INTRODUCTION:
+## INTRODUCTION:
 This project implements a simple chatbot that uses NLP to understand and respond to user inputs.the chatbot is designed to simulate human-like conversations and can be extended for various cases.
 ## FEATURES
--> 
-
+* NLP Based chat understanding: The chatbot uses NLP techniques to parse and understand user input.
+* content awareness
