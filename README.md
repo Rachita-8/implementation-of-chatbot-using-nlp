@@ -30,3 +30,4 @@ This project implements a simple chatbot that uses NLP to understand and respond
 ## Sample examples
 * user: Hi,how are you
 * Bot: I'm doing great,thankyou.
+   ## HAPPY ENDING 
